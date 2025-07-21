@@ -1,0 +1,28 @@
+{
+  "name": "mongodb-mvc",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/nimeshdhumal/node-mongodb-mvc#readme",
+  "bugs": {
+    "url": "https://github.com/nimeshdhumal/node-mongodb-mvc/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nimeshdhumal/node-mongodb-mvc.git"
+  },
+  "license": "ISC",
+  "author": "Nimesh Dhumal",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

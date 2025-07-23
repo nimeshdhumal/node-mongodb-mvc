@@ -7,7 +7,7 @@ app.use(express.json());
 
 app.use('/api/items', routes);
 
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 3000;
 
 //Remove this code after the all APIs works fine
 app.get('/', (req, res) => {

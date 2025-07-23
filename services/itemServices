@@ -1,0 +1,7 @@
+// const itemModel = require('../models/itemModel');
+
+exports.save = () => {
+    return "I got your request...";
+}
+
+module.exports = save();

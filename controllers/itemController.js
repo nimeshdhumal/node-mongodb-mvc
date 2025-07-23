@@ -1,5 +1,10 @@
-const itemModels = require('../models/itemModel');
+const itemServices = require('../services/itemServices');
 
 exports.saveData = (req, res) => {
-    return res.status(200).send('Item inserted successfully!');
+
+    if (req.body != null) {
+        res.status(500).send({ message: "Request Body NULL!" });
+    } else {
+        return res.send(itemServices.save);
+    }
 };

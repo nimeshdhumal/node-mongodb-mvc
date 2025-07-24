@@ -14,8 +14,6 @@ exports.saveResponse = new Schema({
         name: String,
         description: String,
         price: Number,
-        item: Number,
-        createdAt: Date,
-        updatedAt: Date
-    }]
+        item: Number
+    },{timestamps:true}]
 });
